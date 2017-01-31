@@ -6,10 +6,10 @@ var Schema = mongoose.Schema;
 
 var babyfoot = require('./model/babyfoot.js');
 
-mongoose.connect('mongodb://localhost/PrjBaby'); 
+mongoose.connect('mongodb://localhost/PrjBaby');
 var models = {Babyfoot: babyfoot};
 var adapter = new api.dbAdapters.Mongoose(models);
-var registry = new api.ResourceTypeRegistry({}, { dbAdapter: adapter }); 
+var registry = new api.ResourceTypeRegistry({}, { dbAdapter: adapter });
 var Front = new api.httpStrategies.Express(new api.controllers.API(registry),'');
 console.log("Server ready.");
 
