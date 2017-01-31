@@ -1,0 +1,31 @@
+{
+  "name": "serveur_baby_foot",
+  "version": "1.0.0",
+  "description": "Projet ESME serveur pour application babyfoot",
+  "main": "server_baby.js",
+  "scripts": {
+    "start": "node server_baby.js",
+    "test": "node server_baby.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://github.com/patoninho1/Serveur_Baby_foot/"
+  },
+  "keywords": [
+    "react",
+    "babyfoot",
+    "node.js",
+    "serveur"
+  ],
+  "author": "Samy Zobiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "http://github.com/patoninho1/Serveur_Baby_foot/issues"
+  },
+  "homepage": "http://github.com/patoninho1/Serveur_Baby_foot#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.7.6",
+    "json-api": "^2.15.7"
+  }
+}
