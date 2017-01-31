@@ -1,4 +1,7 @@
 # Serveur Baby Foot
+
+This is the server for the mobile app here : https://github.com/patoninho1/babyfoot
+
 ##Prerequisites
 
 - https://nodejs.org/en/
